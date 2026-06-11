@@ -1,0 +1,347 @@
+var CONFIG = {
+  "bizName": "Ember & Oak",
+  "bizType": "restaurant",
+  "tagline": "Where fire meets flavour",
+  "cuisine": "Wood-Fired · Modern European",
+  "address": "14 Wharf Street, Bristol, BS1 4RH",
+  "phone": "+44 117 900 1234",
+  "email": "hello@emberandoak.co.uk",
+  "location": "Bristol, UK",
+  "hoursRows": [
+    {
+      "label": "Dining Room",
+      "days": "Tuesday – Thursday",
+      "hours": "6pm – 10pm"
+    },
+    {
+      "label": "Dining Room",
+      "days": "Friday – Saturday",
+      "hours": "6pm – 11pm"
+    },
+    {
+      "label": "Dining Room",
+      "days": "Sunday",
+      "hours": "12pm – 4pm"
+    },
+    {
+      "label": "Bar & Lounge",
+      "days": "Tuesday – Saturday",
+      "hours": "5pm – 12am"
+    },
+    {
+      "label": "Lunch",
+      "days": "Friday – Saturday",
+      "hours": "12pm – 3pm"
+    }
+  ],
+  "instagram": "@emberandoak",
+  "facebook": "",
+  "tripadvisor": "",
+  "yelp": "",
+  "colorBg": "#1a1208",
+  "colorAccent": "#ddd5c5",
+  "colorText": "#f5f0e8",
+  "colorCard": "#2d1f0e",
+  "fontDisplay": "Cormorant Garamond",
+  "fontBody": "Inter",
+  "heroImage": "hero.jpg",
+  "heroHeadline": "Where fire\nmeets flavour",
+  "heroSub": "Where Culinary Tradition Meets Modern Elegance",
+  "heroCta1": "Reserve a Table",
+  "heroCta2": "View Menu",
+  "gatewayCards": [
+    {
+      "label": "Menu",
+      "link": "menu.html",
+      "image": "gateway-menu.jpg"
+    },
+    {
+      "label": "Reserve",
+      "link": "reservations.html",
+      "image": "gateway-reserve.jpg"
+    },
+    {
+      "label": "Meet the Team",
+      "link": "team.html",
+      "image": "gateway-team.jpg"
+    },
+    {
+      "label": "Gallery",
+      "link": "gallery.html",
+      "image": "gateway-gallery.jpg"
+    }
+  ],
+  "featuredDishes": [
+    {
+      "name": "Wood-Fired Halibut",
+      "desc": "Caramelised cauliflower, caper butter, crispy capers, samphire",
+      "price": "£28",
+      "image": "dish1.jpg"
+    },
+    {
+      "name": "Dry-Aged Côte de Bœuf",
+      "desc": "Sharing cut for two, triple-cooked chips, béarnaise",
+      "price": "£68",
+      "image": "dish2.jpg"
+    },
+    {
+      "name": "Smoked Celeriac Velouté",
+      "desc": "Truffle oil, chestnut, pickled walnut, sourdough crouton",
+      "price": "£12",
+      "image": "dish3.jpg"
+    }
+  ],
+  "pullQuote": "The kind of meal you remember long after the plates are cleared.",
+  "pullQuoteAttr": "Bristol Food & Drink Guide",
+  "menuSections": [
+    {
+      "title": "Starters",
+      "items": [
+        {
+          "name": "Cured Salmon",
+          "desc": "Cucumber, crème fraîche, dill, rye crisp",
+          "price": "£14",
+          "tags": [
+            "gf"
+          ],
+          "image": ""
+        },
+        {
+          "name": "Burrata",
+          "desc": "Heritage tomato, basil oil, aged balsamic",
+          "price": "£13",
+          "tags": [
+            "v",
+            "gf"
+          ],
+          "image": ""
+        },
+        {
+          "name": "Smoked Duck Rillettes",
+          "desc": "Pickled quince, brioche toast, cornichons",
+          "price": "£15",
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Celeriac Velouté",
+          "desc": "Truffle oil, chestnut, pickled walnut, crouton",
+          "price": "£12",
+          "tags": [
+            "v"
+          ],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "title": "Mains",
+      "items": [
+        {
+          "name": "Wood-Fired Halibut",
+          "desc": "Caramelised cauliflower, caper butter, samphire",
+          "price": "£28",
+          "tags": [
+            "gf"
+          ],
+          "image": ""
+        },
+        {
+          "name": "Côte de Bœuf",
+          "desc": "For two — dry-aged, triple-cooked chips, béarnaise",
+          "price": "£68",
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Wild Mushroom Risotto",
+          "desc": "Arborio, pecorino, truffle, watercress",
+          "price": "£21",
+          "tags": [
+            "v",
+            "gf"
+          ],
+          "image": ""
+        },
+        {
+          "name": "Braised Lamb Shoulder",
+          "desc": "Six hours, white bean, gremolata, roasting juices",
+          "price": "£26",
+          "tags": [
+            "gf"
+          ],
+          "image": ""
+        },
+        {
+          "name": "Pan-Roast Chicken",
+          "desc": "Free-range, celeriac purée, pancetta, jus",
+          "price": "£24",
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "title": "Desserts",
+      "items": [
+        {
+          "name": "Valrhona Chocolate Fondant",
+          "desc": "Salted caramel, vanilla ice cream",
+          "price": "£10",
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Tarte Tatin",
+          "desc": "Bramley apple, crème fraîche, calvados caramel",
+          "price": "£9",
+          "tags": [
+            "v"
+          ],
+          "image": ""
+        },
+        {
+          "name": "Cheese Board",
+          "desc": "Selection of three, quince, crackers, grapes",
+          "price": "£14",
+          "tags": [],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "title": "Drinks",
+      "items": [
+        {
+          "name": "House White",
+          "desc": "Picpoul de Pinet, Languedoc",
+          "price": "£8.5 / £32",
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "House Red",
+          "desc": "Malbec, Mendoza, Argentina",
+          "price": "£8.5 / £32",
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Ember Negroni",
+          "desc": "Gin, smoked Campari, sweet vermouth, orange",
+          "price": "£12",
+          "tags": [],
+          "image": ""
+        },
+        {
+          "name": "Craft Lager",
+          "desc": "Local Bristol brew, 500ml",
+          "price": "£6",
+          "tags": [],
+          "image": ""
+        }
+      ]
+    }
+  ],
+  "resFormspree": "abcd1234",
+  "resMaxParty": "12",
+  "resNotes": "We hold reservations for 15 minutes past the booking time. For parties of 8 or more, please call us directly. We welcome dietary enquiries — please note any requirements in your booking.",
+  "resOnline": true,
+  "resDateTime": true,
+  "resSpecialReq": true,
+  "teamMembers": [
+    {
+      "name": "James Whitfield",
+      "title": "Head Chef",
+      "bio": "Trained under Raymond Blanc and spent five years at a two Michelin-star kitchen in Lyon before returning to Bristol to open Ember & Oak. James brings classical French technique to the best of British and West Country produce.",
+      "photo": "chef-james.jpg"
+    },
+    {
+      "name": "Priya Nair",
+      "title": "Pastry Chef",
+      "bio": "A graduate of the Culinary Institute of America, Priya joined Ember & Oak after stages in Paris and Copenhagen. Her desserts balance technical precision with warmth — every plate feels like a gift.",
+      "photo": "chef-priya.jpg"
+    },
+    {
+      "name": "Tom Cassidy",
+      "title": "Bar Manager",
+      "bio": "Tom spent a decade working London's cocktail scene before moving west. He curates our wine list and leads the bar programme, which leans heavily on house-made infusions and locally-foraged ingredients.",
+      "photo": "tom.jpg"
+    },
+    {
+      "name": "Sofia Marchetti",
+      "title": "Front of House",
+      "bio": "Originally from Florence, Sofia brings an effortless warmth to the dining room that regulars describe as the real secret to Ember & Oak. She manages our team and ensures every guest feels genuinely at home.",
+      "photo": "sofia.jpg"
+    }
+  ],
+  "galleryFood": [
+    {
+      "url": "food1.jpg",
+      "caption": "Wood-fired halibut with samphire"
+    },
+    {
+      "url": "food2.jpg",
+      "caption": "Côte de bœuf — the showstopper"
+    },
+    {
+      "url": "food3.jpg",
+      "caption": "Valrhona chocolate fondant"
+    },
+    {
+      "url": "food4.jpg",
+      "caption": "Burrata with heritage tomatoes"
+    }
+  ],
+  "galleryAtmo": [
+    {
+      "url": "atmo1.jpg",
+      "caption": "The main dining room at dusk"
+    },
+    {
+      "url": "atmo2.jpg",
+      "caption": "Our open kitchen and wood-fired grill"
+    },
+    {
+      "url": "atmo3.jpg",
+      "caption": "The bar"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Rachel M.",
+      "source": "Google Reviews",
+      "quote": "The halibut was extraordinary. The entire evening felt effortless — attentive without being intrusive. We will be back.",
+      "stars": 5
+    },
+    {
+      "name": "David L.",
+      "source": "TripAdvisor",
+      "quote": "Best côte de bœuf I have had outside France. The wine pairing was spot-on. A serious restaurant that doesn't take itself too seriously.",
+      "stars": 5
+    },
+    {
+      "name": "The Sunday Times",
+      "source": "Food & Travel",
+      "quote": "Whitfield cooks with the confidence of someone who has nothing left to prove. This is genuinely important food.",
+      "stars": 5
+    },
+    {
+      "name": "Anna T.",
+      "source": "OpenTable",
+      "quote": "Brought my parents for their anniversary. Sofia and the team made it unforgettable. The fondant alone is worth the trip.",
+      "stars": 5
+    }
+  ],
+  "showStars": true,
+  "contactFormspree": "abcd1234",
+  "mapsEmbed": "",
+  "contactExtra": "Free street parking available after 6pm. Fully wheelchair accessible — please let us know when booking and we will ensure suitable seating.",
+  "demoMode": true,
+  "demoMessage": "This is a preview site — content is for demonstration only.",
+  "demoContactUrl": "",
+  "footerCredit": "",
+  "showTeam": true,
+  "showGallery": true,
+  "showTestimonials": true
+};
