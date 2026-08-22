@@ -275,36 +275,44 @@ var CONFIG = {
       "photo": "sofia.jpg"
     }
   ],
-  "galleryFood": [
+  "galleryCategories": [
     {
-      "url": "food1.jpg",
-      "caption": "Wood-fired halibut with samphire"
+      "title": "Food & Drink",
+      "items": [
+        {
+          "url": "food1.jpg",
+          "caption": "Wood-fired halibut with samphire"
+        },
+        {
+          "url": "food2.jpg",
+          "caption": "Côte de bœuf — the showstopper"
+        },
+        {
+          "url": "food3.jpg",
+          "caption": "Valrhona chocolate fondant"
+        },
+        {
+          "url": "food4.jpg",
+          "caption": "Burrata with heritage tomatoes"
+        }
+      ]
     },
     {
-      "url": "food2.jpg",
-      "caption": "Côte de bœuf — the showstopper"
-    },
-    {
-      "url": "food3.jpg",
-      "caption": "Valrhona chocolate fondant"
-    },
-    {
-      "url": "food4.jpg",
-      "caption": "Burrata with heritage tomatoes"
-    }
-  ],
-  "galleryAtmo": [
-    {
-      "url": "atmo1.jpg",
-      "caption": "The main dining room at dusk"
-    },
-    {
-      "url": "atmo2.jpg",
-      "caption": "Our open kitchen and wood-fired grill"
-    },
-    {
-      "url": "atmo3.jpg",
-      "caption": "The bar"
+      "title": "Atmosphere",
+      "items": [
+        {
+          "url": "atmo1.jpg",
+          "caption": "The main dining room at dusk"
+        },
+        {
+          "url": "atmo2.jpg",
+          "caption": "Our open kitchen and wood-fired grill"
+        },
+        {
+          "url": "atmo3.jpg",
+          "caption": "The bar"
+        }
+      ]
     }
   ],
   "testimonials": [
@@ -340,6 +348,7 @@ var CONFIG = {
   "demoMode": false,
   "demoMessage": "This is a preview site — content is for demonstration only - EQ Enterprise",
   "demoContactUrl": "",
+  "copyrightLine": "",
   "footerCredit": "",
   "showTeam": true,
   "showGallery": true,
