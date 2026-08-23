@@ -104,7 +104,7 @@ var CONFIG = {
           "tags": [
             "gf"
           ],
-          "image": ""
+          "image": "dish3.jpg"
         },
         {
           "name": "Burrata",
@@ -114,14 +114,14 @@ var CONFIG = {
             "v",
             "gf"
           ],
-          "image": ""
+          "image": "dish2.jpg"
         },
         {
           "name": "Smoked Duck Rillettes",
           "desc": "Pickled quince, brioche toast, cornichons",
           "price": "£15",
           "tags": [],
-          "image": ""
+          "image": "duck-rillette.png"
         },
         {
           "name": "Celeriac Velouté",
@@ -130,7 +130,7 @@ var CONFIG = {
           "tags": [
             "v"
           ],
-          "image": ""
+          "image": "dish1.jpg"
         }
       ]
     },
@@ -144,14 +144,14 @@ var CONFIG = {
           "tags": [
             "gf"
           ],
-          "image": ""
+          "image": "dish1.jpg"
         },
         {
           "name": "Côte de Bœuf",
           "desc": "For two — dry-aged, triple-cooked chips, béarnaise",
           "price": "£68",
           "tags": [],
-          "image": ""
+          "image": "dish2.jpg"
         },
         {
           "name": "Wild Mushroom Risotto",
@@ -161,7 +161,7 @@ var CONFIG = {
             "v",
             "gf"
           ],
-          "image": ""
+          "image": "wild-mushroom-risotto.png"
         },
         {
           "name": "Braised Lamb Shoulder",
@@ -170,14 +170,14 @@ var CONFIG = {
           "tags": [
             "gf"
           ],
-          "image": ""
+          "image": "lamb-shoulder.png"
         },
         {
           "name": "Pan-Roast Chicken",
           "desc": "Free-range, celeriac purée, pancetta, jus",
           "price": "£24",
           "tags": [],
-          "image": ""
+          "image": "Pan-Roasted-Chicken-Thighs.jpg"
         }
       ]
     },
@@ -189,7 +189,7 @@ var CONFIG = {
           "desc": "Salted caramel, vanilla ice cream",
           "price": "£10",
           "tags": [],
-          "image": ""
+          "image": "fondant-with-valrhona.jpg"
         },
         {
           "name": "Tarte Tatin",
@@ -198,14 +198,14 @@ var CONFIG = {
           "tags": [
             "v"
           ],
-          "image": ""
+          "image": "apple-tarte-tatin.jpg"
         },
         {
           "name": "Cheese Board",
           "desc": "Selection of three, quince, crackers, grapes",
           "price": "£14",
           "tags": [],
-          "image": ""
+          "image": "cheese-board.png"
         }
       ]
     },
@@ -217,7 +217,7 @@ var CONFIG = {
           "desc": "Picpoul de Pinet, Languedoc",
           "price": "£8.5 / £32",
           "tags": [],
-          "image": ""
+          "image": "red-wines.png"
         },
         {
           "name": "House Red",
@@ -231,7 +231,7 @@ var CONFIG = {
           "desc": "Gin, smoked Campari, sweet vermouth, orange",
           "price": "£12",
           "tags": [],
-          "image": ""
+          "image": "negroni.png"
         },
         {
           "name": "Craft Lager",
@@ -254,25 +254,25 @@ var CONFIG = {
       "name": "James Whitfield",
       "title": "Head Chef",
       "bio": "Trained under Raymond Blanc and spent five years at a two Michelin-star kitchen in Lyon before returning to Bristol to open Ember & Oak. James brings classical French technique to the best of British and West Country produce.",
-      "photo": "chef-james.jpg"
+      "photo": "gateway-team.jpg"
     },
     {
       "name": "Priya Nair",
       "title": "Pastry Chef",
       "bio": "A graduate of the Culinary Institute of America, Priya joined Ember & Oak after stages in Paris and Copenhagen. Her desserts balance technical precision with warmth — every plate feels like a gift.",
-      "photo": "chef-priya.jpg"
+      "photo": ""
     },
     {
       "name": "Tom Cassidy",
       "title": "Bar Manager",
       "bio": "Tom spent a decade working London's cocktail scene before moving west. He curates our wine list and leads the bar programme, which leans heavily on house-made infusions and locally-foraged ingredients.",
-      "photo": "tom.jpg"
+      "photo": "bartender.png"
     },
     {
       "name": "Sofia Marchetti",
       "title": "Front of House",
       "bio": "Originally from Florence, Sofia brings an effortless warmth to the dining room that regulars describe as the real secret to Ember & Oak. She manages our team and ensures every guest feels genuinely at home.",
-      "photo": "sofia.jpg"
+      "photo": ""
     }
   ],
   "galleryCategories": [
@@ -280,19 +280,19 @@ var CONFIG = {
       "title": "Food & Drink",
       "items": [
         {
-          "url": "food1.jpg",
+          "url": "dish1.jpg",
           "caption": "Wood-fired halibut with samphire"
         },
         {
-          "url": "food2.jpg",
+          "url": "dish2.jpg",
           "caption": "Côte de bœuf — the showstopper"
         },
         {
-          "url": "food3.jpg",
+          "url": "fondant-with-valrhona.jpg",
           "caption": "Valrhona chocolate fondant"
         },
         {
-          "url": "food4.jpg",
+          "url": "Heirloom-Tomato-Burrata.png",
           "caption": "Burrata with heritage tomatoes"
         }
       ]
@@ -301,15 +301,15 @@ var CONFIG = {
       "title": "Atmosphere",
       "items": [
         {
-          "url": "atmo1.jpg",
+          "url": "DUSK-Interior.jpg",
           "caption": "The main dining room at dusk"
         },
         {
-          "url": "atmo2.jpg",
+          "url": "gateway-gallery.jpg",
           "caption": "Our open kitchen and wood-fired grill"
         },
         {
-          "url": "atmo3.jpg",
+          "url": "bar.jpg",
           "caption": "The bar"
         }
       ]
