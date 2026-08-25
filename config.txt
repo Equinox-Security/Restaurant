@@ -343,6 +343,7 @@ var CONFIG = {
   ],
   "showStars": true,
   "contactFormspree": "abcd1234",
+  "goatcounter": "",
   "mapsEmbed": "",
   "contactExtra": "Free street parking available after 6pm. Fully wheelchair accessible — please let us know when booking and we will ensure suitable seating.",
   "demoMode": false,
