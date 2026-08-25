@@ -217,14 +217,14 @@ var CONFIG = {
           "desc": "Picpoul de Pinet, Languedoc",
           "price": "£8.5 / £32",
           "tags": [],
-          "image": "red-wines.png"
+          "image": "picpoul.jpg"
         },
         {
           "name": "House Red",
           "desc": "Malbec, Mendoza, Argentina",
           "price": "£8.5 / £32",
           "tags": [],
-          "image": ""
+          "image": "red-wines.png"
         },
         {
           "name": "Ember Negroni",
@@ -238,7 +238,7 @@ var CONFIG = {
           "desc": "Local Bristol brew, 500ml",
           "price": "£6",
           "tags": [],
-          "image": ""
+          "image": "lager.jpg"
         }
       ]
     }
@@ -305,7 +305,7 @@ var CONFIG = {
           "caption": "The main dining room at dusk"
         },
         {
-          "url": "gateway-gallery.jpg",
+          "url": "kitchen.png",
           "caption": "Our open kitchen and wood-fired grill"
         },
         {
